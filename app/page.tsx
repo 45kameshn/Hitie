@@ -1334,7 +1334,7 @@ const html = `<!DOCTYPE html>
               </div>
               <div class="contact-detail-text">
                 <div class="label">Email</div>
-                <div class="value">info@hitie.in</div>
+                <div class="value">contact@hitie.in</div>
               </div>
             </div>
             <div class="contact-detail">
@@ -1466,7 +1466,7 @@ const html = `<!DOCTYPE html>
         <h4>Contact Us</h4>
         <div class="footer-contact-item">
           <svg width="16" height="16" fill="none" stroke="var(--amber-light)" stroke-width="2" viewBox="0 0 24 24"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
-          <a href="mailto:info@hitie.in">info@hitie.in</a>
+          <a href="mailto:contact@hitie.in">contact@hitie.in</a>
         </div>
         <div class="footer-contact-item">
           <svg width="16" height="16" fill="none" stroke="var(--amber-light)" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.11 11 19.79 19.79 0 0 1 1.03 2.4 2 2 0 0 1 3 .22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 7.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16z"/></svg>
