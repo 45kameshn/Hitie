@@ -153,7 +153,7 @@ export const productsPageHtml = `<!-- ====== PRODUCTS PAGE ====== -->
       <div class="grid-2">
         <div class="product-card">
           <div class="product-img" style="height:160px;">
-            <img src="/images/steel_flanges.jpeg" alt="Steel flanges" loading="lazy" style="width:100%;height:100%;object-fit:cover;">
+            <img src="/images/steel_flanges.png" alt="Steel flanges" loading="lazy" style="width:100%;height:100%;object-fit:cover;">
           </div>
           <div class="product-body">
             <div class="product-cat">Flanges</div>
@@ -164,7 +164,7 @@ export const productsPageHtml = `<!-- ====== PRODUCTS PAGE ====== -->
         </div>
         <div class="product-card">
           <div class="product-img" style="height:160px;">
-            <img src="/images/steel_flanges.jpeg" alt="Steel fittings" loading="lazy" style="width:100%;height:100%;object-fit:cover;">
+            <img src="/images/elbow45-90.png" alt="Steel fittings" loading="lazy" style="width:100%;height:100%;object-fit:cover;">
           </div>
           <div class="product-body">
             <div class="product-cat">Fittings</div>
