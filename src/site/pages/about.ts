@@ -1,4 +1,4 @@
-﻿export const aboutPageHtml = `<!-- ====== ABOUT PAGE ====== -->
+export const aboutPageHtml = `<!-- ====== ABOUT PAGE ====== -->
 <div class="page" id="page-about">
   <div class="about-hero">
     <div class="container">
@@ -50,27 +50,27 @@
       </div>
       <div class="grid-3">
         <div class="value-card">
-          <h3>ðŸŽ¯ Quality First</h3>
+          <h3>🎯 Quality First</h3>
           <p>Every product we supply undergoes rigorous quality checks. We provide complete mill test certificates and third-party inspection reports with all deliveries.</p>
         </div>
         <div class="value-card">
-          <h3>ðŸ¤ Trust & Transparency</h3>
+          <h3>🤝 Trust & Transparency</h3>
           <p>We believe in building long-term relationships based on honesty, fair pricing, and transparent communication at every step of the process.</p>
         </div>
         <div class="value-card">
-          <h3>âš¡ Timely Delivery</h3>
+          <h3>⚡ Timely Delivery</h3>
           <p>Project deadlines are sacred to us. Our logistics expertise ensures materials reach your site on time, every time, regardless of location.</p>
         </div>
         <div class="value-card">
-          <h3>ðŸŒ Global Reach</h3>
+          <h3>🌍 Global Reach</h3>
           <p>With suppliers across India, Europe, and Asia, we have the network to source any grade, size, or specification you require at competitive prices.</p>
         </div>
         <div class="value-card">
-          <h3>ðŸ“‹ Compliance</h3>
-          <p>Full compliance with international standards including ASTM, API, ASME, IS, and EN â€” ensuring your project meets all regulatory requirements.</p>
+          <h3>✅ Compliance</h3>
+          <p>Full compliance with international standards including ASTM, API, ASME, IS, and EN — ensuring your project meets all regulatory requirements.</p>
         </div>
         <div class="value-card">
-          <h3>ðŸ’¡ Technical Expertise</h3>
+          <h3>🛠️ Technical Expertise</h3>
           <p>Our team brings deep technical knowledge of steel metallurgy, helping you select the right material for your specific application and environment.</p>
         </div>
       </div>
@@ -122,4 +122,3 @@
 </div>
 
 `;
-

@@ -17,6 +17,10 @@
 /.next/
 /out/
 
+# vite
+/dist/
+/.vite/
+
 # production
 /build
 
@@ -36,8 +40,8 @@ yarn-error.log*
 # vercel
 .vercel
 
+# local npm cache (PowerShell/CI quirks)
+/.npm-cache/
+
 # typescript
 *.tsbuildinfo
-next-env.d.ts
-
-.vercel

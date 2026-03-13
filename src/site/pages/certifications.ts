@@ -1,4 +1,4 @@
-﻿export const certificationsPageHtml = `<!-- ====== CERTIFICATIONS PAGE ====== -->
+export const certificationsPageHtml = `<!-- ====== CERTIFICATIONS PAGE ====== -->
 <div class="page" id="page-certifications">
   <div class="page-hero">
     <div class="section-tag" style="background:rgba(245,158,11,0.2);color:var(--amber-light);">Quality &amp; Compliance</div>
@@ -20,7 +20,7 @@
           </div>
           <h3>ASTM International</h3>
           <p>Products comply with American Society for Testing and Materials standards covering material specification, testing, and certification.</p>
-          <div class="cert-badge">âœ“ Certified</div>
+          <div class="cert-badge">✓ Certified</div>
         </div>
         <div class="cert-card">
           <div class="cert-icon">
@@ -28,7 +28,7 @@
           </div>
           <h3>API Standards</h3>
           <p>American Petroleum Institute standards for oil country tubular goods, line pipe, and petroleum equipment.</p>
-          <div class="cert-badge">âœ“ Compliant</div>
+          <div class="cert-badge">✓ Compliant</div>
         </div>
         <div class="cert-card">
           <div class="cert-icon">
@@ -36,7 +36,7 @@
           </div>
           <h3>ASME Standards</h3>
           <p>American Society of Mechanical Engineers codes for boiler and pressure vessel construction and piping systems.</p>
-          <div class="cert-badge">âœ“ Compliant</div>
+          <div class="cert-badge">✓ Compliant</div>
         </div>
         <div class="cert-card">
           <div class="cert-icon">
@@ -44,7 +44,7 @@
           </div>
           <h3>ISO 9001:2015</h3>
           <p>Our supply chain partners maintain ISO 9001 certification, ensuring consistent quality management systems throughout.</p>
-          <div class="cert-badge">âœ“ Compliant</div>
+          <div class="cert-badge">✓ Compliant</div>
         </div>
         <div class="cert-card">
           <div class="cert-icon">
@@ -52,7 +52,7 @@
           </div>
           <h3>Indian Standards (BIS)</h3>
           <p>Bureau of Indian Standards compliance for IS-grade steel materials for domestic projects and government contracts.</p>
-          <div class="cert-badge">âœ“ Certified</div>
+          <div class="cert-badge">✓ Certified</div>
         </div>
         <div class="cert-card">
           <div class="cert-icon">
@@ -60,7 +60,7 @@
           </div>
           <h3>EN / DIN Standards</h3>
           <p>European Norm and German DIN standards for projects requiring European material specifications and certifications.</p>
-          <div class="cert-badge">âœ“ Compliant</div>
+          <div class="cert-badge">✓ Compliant</div>
         </div>
       </div>
     </div>
@@ -107,4 +107,3 @@
 </div>
 
 `;
-

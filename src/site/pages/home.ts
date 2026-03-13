@@ -1,4 +1,4 @@
-﻿export const homePageHtml = `<!-- ====== HOME PAGE ====== -->
+export const homePageHtml = `<!-- ====== HOME PAGE ====== -->
 <div class="page active" id="page-home">
 
   <!-- HERO -->
@@ -111,7 +111,7 @@
             <div class="product-cat">Pipes &amp; Tubes</div>
             <h3>Seamless Steel Pipes</h3>
             <p>High-quality seamless pipes for high-pressure applications in oil &amp; gas industries. Available in various grades.</p>
-            <div class="product-spec">ASTM A106 Â· API 5L Â· ASME B36.10</div>
+            <div class="product-spec">ASTM A106 · API 5L · ASME B36.10</div>
           </div>
         </div>
         <div class="product-card">
@@ -122,7 +122,7 @@
             <div class="product-cat">Pipes &amp; Tubes</div>
             <h3>Welded Steel Pipes</h3>
             <p>Premium welded pipes for structural and industrial applications. Manufactured to international standards.</p>
-            <div class="product-spec">ASTM A53 Â· API 5L Grade B Â· ERW/LSAW</div>
+            <div class="product-spec">ASTM A53 · API 5L Grade B · ERW/LSAW</div>
           </div>
         </div>
         <div class="product-card">
@@ -133,7 +133,7 @@
             <div class="product-cat">Plates &amp; Sheets</div>
             <h3>Steel Plates</h3>
             <p>Heavy-duty steel plates for power plant construction and petrochemical facilities. Superior strength.</p>
-            <div class="product-spec">ASTM A516 Â· SA 516 Grade 60/70</div>
+            <div class="product-spec">ASTM A516 · SA 516 Grade 60/70</div>
           </div>
         </div>
         <div class="product-card">
@@ -144,7 +144,7 @@
             <div class="product-cat">Plates &amp; Sheets</div>
             <h3>Stainless Steel Sheets</h3>
             <p>Corrosion-resistant stainless steel sheets for demanding petrochemical applications.</p>
-            <div class="product-spec">ASTM A240 Â· 304/316/321 Grade</div>
+            <div class="product-spec">ASTM A240 · 304/316/321 Grade</div>
           </div>
         </div>
       </div>
@@ -171,7 +171,7 @@
             <span class="project-tag">Oil &amp; Gas</span>
             <span class="project-year">2024</span>
           </div>
-          <h3>Offshore Oil Platform â€“ Arabian Gulf</h3>
+          <h3>Offshore Oil Platform – Arabian Gulf</h3>
           <p>Supplied 5000+ tons of seamless pipes and fittings for offshore platform construction with complete documentation and third-party certification.</p>
           <div class="project-footer">
             <div class="label">Products Supplied</div>
@@ -183,7 +183,7 @@
             <span class="project-tag">Power Generation</span>
             <span class="project-year">2023</span>
           </div>
-          <h3>Thermal Power Plant â€“ Gujarat</h3>
+          <h3>Thermal Power Plant – Gujarat</h3>
           <p>Delivered comprehensive steel structure and piping materials for a 660MW thermal power unit within strict project timelines.</p>
           <div class="project-footer">
             <div class="label">Products Supplied</div>
@@ -220,4 +220,3 @@
 </div>
 
 `;
-

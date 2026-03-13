@@ -1,5 +1,5 @@
-﻿export const scriptsHtml = `<script>
-  // â”€â”€ NAVIGATION â”€â”€
+export const scriptsHtml = `<script>
+  // ── NAVIGATION ──
   function navigate(page) {
     document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
     document.getElementById('page-' + page).classList.add('active');
@@ -10,17 +10,17 @@
     history.pushState(null, '', '#' + page);
   }
 
-  // â”€â”€ MOBILE MENU â”€â”€
+  // ── MOBILE MENU ──
   function toggleMobileMenu() {
     document.getElementById('mobileNav').classList.toggle('open');
   }
 
-  // â”€â”€ HERO IMAGE PARALLAX â”€â”€
+  // ── HERO IMAGE PARALLAX ──
   window.addEventListener('load', () => {
     document.getElementById('heroBg').classList.add('loaded');
   });
 
-  // â”€â”€ FORM SUBMIT â”€â”€
+  // ── FORM SUBMIT ──
   function submitForm() {
     const msg = document.getElementById('message').value;
     const email = document.getElementById('email').value;
@@ -35,7 +35,7 @@
     });
   }
 
-  // â”€â”€ TOAST â”€â”€
+  // ── TOAST ──
   function showToast(message, success = true) {
     const toast = document.getElementById('toast');
     const msg = document.getElementById('toast-msg');
@@ -45,7 +45,7 @@
     setTimeout(() => toast.classList.remove('show'), 3500);
   }
 
-  // â”€â”€ HASH ROUTING â”€â”€
+  // ── HASH ROUTING ──
   function checkHash() {
     const hash = location.hash.replace('#', '') || 'home';
     const pages = ['home','about','products','projects','certifications','contact'];
@@ -54,7 +54,7 @@
   window.addEventListener('hashchange', checkHash);
   checkHash();
 
-  // â”€â”€ SCROLL ANIMATION â”€â”€
+  // ── SCROLL ANIMATION ──
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
@@ -71,7 +71,7 @@
     observer.observe(el);
   });
 
-  // â”€â”€ CLOSE MOBILE MENU ON OUTSIDE CLICK â”€â”€
+  // ── CLOSE MOBILE MENU ON OUTSIDE CLICK ──
   document.addEventListener('click', (e) => {
     const nav = document.getElementById('mobileNav');
     const btn = document.querySelector('.mobile-menu-btn');
@@ -80,9 +80,8 @@
     }
   });
 
-  // â”€â”€ ABOUT PAGE RESPONSIVE â”€â”€
+  // ── ABOUT PAGE RESPONSIVE ──
   const style = document.createElement('style');
   style.textContent = \`@media (max-width: 760px) { .about-grid { grid-template-columns: 1fr !important; } }\`;
   document.head.appendChild(style);
 </script>`;
-

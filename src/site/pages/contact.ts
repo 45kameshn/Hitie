@@ -1,4 +1,4 @@
-﻿export const contactPageHtml = `<!-- ====== CONTACT PAGE ====== -->
+export const contactPageHtml = `<!-- ====== CONTACT PAGE ====== -->
 <div class="page" id="page-contact">
   <div class="page-hero">
     <div class="section-tag" style="background:rgba(245,158,11,0.2);color:var(--amber-light);">Get In Touch</div>
@@ -100,7 +100,7 @@
           </div>
           <div class="form-group">
             <label for="message">Message</label>
-            <textarea id="message" placeholder="Please describe your requirements in detail â€” material grade, size, quantity, delivery location, timeline..."></textarea>
+            <textarea id="message" placeholder="Please describe your requirements in detail — material grade, size, quantity, delivery location, timeline..."></textarea>
           </div>
           <button class="btn-primary" style="width:100%;justify-content:center;" onclick="submitForm()">
             Send Message
@@ -113,4 +113,3 @@
 </div>
 
 `;
-

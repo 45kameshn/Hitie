@@ -1,4 +1,4 @@
-﻿export const projectsPageHtml = `<!-- ====== PROJECTS PAGE ====== -->
+export const projectsPageHtml = `<!-- ====== PROJECTS PAGE ====== -->
 <div class="page" id="page-projects">
   <div class="page-hero">
     <div class="section-tag" style="background:rgba(245,158,11,0.2);color:var(--amber-light);">Our Work</div>
@@ -18,7 +18,7 @@
             <span class="project-tag">Oil &amp; Gas</span>
             <span class="project-year">2024</span>
           </div>
-          <h3>Offshore Oil Platform â€“ Arabian Gulf</h3>
+          <h3>Offshore Oil Platform – Arabian Gulf</h3>
           <p>Supplied 5000+ tons of seamless pipes and fittings for offshore platform construction with complete documentation, TPIA certificates, and material traceability.</p>
           <div class="project-footer">
             <div class="label">Products Supplied</div>
@@ -30,7 +30,7 @@
             <span class="project-tag">Petrochemical</span>
             <span class="project-year">2024</span>
           </div>
-          <h3>Refinery Expansion â€“ Jamnagar, India</h3>
+          <h3>Refinery Expansion – Jamnagar, India</h3>
           <p>Comprehensive supply of stainless steel piping and pressure vessel plates for a major refinery expansion project under LSTK contract.</p>
           <div class="project-footer">
             <div class="label">Products Supplied</div>
@@ -49,7 +49,7 @@
             <span class="project-tag">Power Generation</span>
             <span class="project-year">2023</span>
           </div>
-          <h3>Thermal Power Plant â€“ Gujarat</h3>
+          <h3>Thermal Power Plant – Gujarat</h3>
           <p>Delivered comprehensive steel structure and piping materials for a 660MW thermal power unit within strict project timelines and quality requirements.</p>
           <div class="project-footer">
             <div class="label">Products Supplied</div>
@@ -61,7 +61,7 @@
             <span class="project-tag">Oil &amp; Gas</span>
             <span class="project-year">2023</span>
           </div>
-          <h3>Cross-Country Pipeline â€“ Rajasthan</h3>
+          <h3>Cross-Country Pipeline – Rajasthan</h3>
           <p>Supplied API 5L line pipes for a 200km cross-country natural gas transmission pipeline project with strict dimensional and chemical compliance.</p>
           <div class="project-footer">
             <div class="label">Products Supplied</div>
@@ -73,7 +73,7 @@
             <span class="project-tag">Petrochemical</span>
             <span class="project-year">2023</span>
           </div>
-          <h3>Chemical Plant â€“ Dahej, Gujarat</h3>
+          <h3>Chemical Plant – Dahej, Gujarat</h3>
           <p>Complete piping material supply for a greenfield specialty chemical manufacturing facility including exotic alloy materials.</p>
           <div class="project-footer">
             <div class="label">Products Supplied</div>
@@ -85,7 +85,7 @@
             <span class="project-tag">Power Generation</span>
             <span class="project-year">2022</span>
           </div>
-          <h3>Combined Cycle Power Plant â€“ Maharashtra</h3>
+          <h3>Combined Cycle Power Plant – Maharashtra</h3>
           <p>Multi-phase supply of high-alloy piping, fittings and structural steel for a 400MW combined cycle gas turbine power plant.</p>
           <div class="project-footer">
             <div class="label">Products Supplied</div>
@@ -108,4 +108,3 @@
 </div>
 
 `;
-

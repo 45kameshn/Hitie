@@ -1,4 +1,4 @@
-﻿export const css = `
+export const css = `
   :root {
     --navy: #0f2d52;
     --navy-light: #1a3d6b;
@@ -30,13 +30,13 @@
     overflow-x: hidden;
   }
 
-  /* â”€â”€ UTILITIES â”€â”€ */
+  /* ── UTILITIES ── */
   .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
   .hidden { display: none !important; }
   .page { display: none; }
   .page.active { display: block; }
 
-  /* â”€â”€ ANIMATIONS â”€â”€ */
+  /* ── ANIMATIONS ── */
   @keyframes fadeUp {
     from { opacity: 0; transform: translateY(30px); }
     to   { opacity: 1; transform: translateY(0); }
@@ -58,7 +58,7 @@
   .delay-3 { animation-delay: 0.45s; }
   .delay-4 { animation-delay: 0.6s; }
 
-  /* â”€â”€ HEADER â”€â”€ */
+  /* ── HEADER ── */
   header {
     position: fixed; top: 0; left: 0; right: 0; z-index: 100;
     background: rgba(255,255,255,0.97);
@@ -114,7 +114,7 @@
   .mobile-nav.open { display: flex; }
   .mobile-nav .nav-link { display: block; padding: 12px 16px; }
 
-  /* â”€â”€ BUTTONS â”€â”€ */
+  /* ── BUTTONS ── */
   .btn-primary {
     display: inline-flex; align-items: center; gap: 8px;
     padding: 14px 28px; border-radius: 8px; font-size: 15px;
@@ -148,7 +148,7 @@
   }
   .btn-navy:hover { background: var(--navy-light); transform: translateY(-1px); }
 
-  /* â”€â”€ HERO â”€â”€ */
+  /* ── HERO ── */
   .hero {
     position: relative; height: 92vh; min-height: 600px;
     display: flex; align-items: center; justify-content: center;
@@ -203,7 +203,7 @@
     animation: fadeIn 2s ease infinite alternate;
   }
 
-  /* â”€â”€ STATS â”€â”€ */
+  /* ── STATS ── */
   .stats-bar {
     background: white; padding: 52px 0;
     border-bottom: 1px solid var(--gray-200);
@@ -221,7 +221,7 @@
   .stat-label { font-size: 14px; font-weight: 500; color: var(--gray-500); }
   @media (max-width: 640px) { .stats-grid { grid-template-columns: repeat(2,1fr); } }
 
-  /* â”€â”€ SECTIONS â”€â”€ */
+  /* ── SECTIONS ── */
   section { padding: 88px 0; }
   .section-tag {
     display: inline-block; background: #e8f0fe;
@@ -240,7 +240,7 @@
   .section-header { text-align: center; margin-bottom: 60px; }
   .section-header .section-subtitle { margin: 0 auto; }
 
-  /* â”€â”€ CARDS â”€â”€ */
+  /* ── CARDS ── */
   .card {
     background: white; border-radius: 16px;
     border: 2px solid var(--gray-200); padding: 32px;
@@ -264,7 +264,7 @@
   .card h3 { font-size: 18px; font-weight: 700; color: var(--gray-900); margin-bottom: 10px; }
   .card p  { font-size: 14px; color: var(--gray-500); line-height: 1.7; }
 
-  /* â”€â”€ PRODUCT CARDS â”€â”€ */
+  /* ── PRODUCT CARDS ── */
   .product-card {
     background: white; border-radius: 16px; overflow: hidden;
     border: 2px solid var(--gray-200); transition: all 0.3s;
@@ -286,7 +286,7 @@
   .product-body p  { font-size: 13px; color: var(--gray-500); line-height: 1.6; margin-bottom: 12px; }
   .product-spec { font-size: 12px; color: var(--gray-400); font-weight: 500; }
 
-  /* â”€â”€ PROJECT CARDS â”€â”€ */
+  /* ── PROJECT CARDS ── */
   .project-card {
     background: white; border-radius: 16px;
     border: 2px solid var(--gray-200); padding: 32px; transition: all 0.3s;
@@ -303,14 +303,14 @@
   .project-footer .label { font-size: 12px; color: var(--gray-400); font-weight: 500; margin-bottom: 4px; }
   .project-footer .value { font-size: 14px; font-weight: 600; color: var(--navy); }
 
-  /* â”€â”€ GRIDS â”€â”€ */
+  /* ── GRIDS ── */
   .grid-4 { display: grid; grid-template-columns: repeat(4,1fr); gap: 24px; }
   .grid-3 { display: grid; grid-template-columns: repeat(3,1fr); gap: 24px; }
   .grid-2 { display: grid; grid-template-columns: repeat(2,1fr); gap: 24px; }
   @media (max-width: 1024px) { .grid-4 { grid-template-columns: repeat(2,1fr); } .grid-3 { grid-template-columns: repeat(2,1fr); } }
   @media (max-width: 640px)  { .grid-4, .grid-3, .grid-2 { grid-template-columns: 1fr; } }
 
-  /* â”€â”€ CTA BANNER â”€â”€ */
+  /* ── CTA BANNER ── */
   .cta-banner {
     background: linear-gradient(135deg, var(--navy-dark) 0%, var(--navy) 50%, #1e4080 100%);
     padding: 88px 0; position: relative; overflow: hidden;
@@ -334,7 +334,7 @@
   .cta-content p { font-size: 17px; color: rgba(255,255,255,0.75); margin-bottom: 36px; }
   .cta-btns { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
 
-  /* â”€â”€ FOOTER â”€â”€ */
+  /* ── FOOTER ── */
   footer {
     background: linear-gradient(135deg, var(--navy-dark) 0%, var(--navy) 60%, #0d1f3c 100%);
     color: white; padding: 72px 0 0;
@@ -384,12 +384,12 @@
   .footer-bottom-links a { font-size: 13px; color: rgba(255,255,255,0.4); text-decoration: none; transition: color 0.2s; }
   .footer-bottom-links a:hover { color: var(--amber-light); }
 
-  /* â”€â”€ BG VARIANTS â”€â”€ */
+  /* ── BG VARIANTS ── */
   .bg-gray { background: var(--gray-50); }
   .bg-white { background: white; }
   .text-center { text-align: center; }
 
-  /* â”€â”€ ABOUT PAGE â”€â”€ */
+  /* ── ABOUT PAGE ── */
   .about-hero {
     background: linear-gradient(135deg, var(--navy-dark), var(--navy));
     color: white; padding: 100px 0 80px; margin-top: 76px;
@@ -410,7 +410,7 @@
   }
   .page-hero p { font-size: 17px; color: rgba(255,255,255,0.7); max-width: 540px; margin: 0 auto; }
 
-  /* â”€â”€ TEAM / VALUE CARDS â”€â”€ */
+  /* ── TEAM / VALUE CARDS ── */
   .value-card {
     background: white; border-radius: 16px; padding: 32px;
     border-left: 4px solid var(--amber); box-shadow: 0 4px 20px rgba(0,0,0,0.05);
@@ -418,7 +418,7 @@
   .value-card h3 { font-size: 18px; font-weight: 700; color: var(--navy); margin-bottom: 8px; }
   .value-card p  { font-size: 14px; color: var(--gray-500); line-height: 1.7; }
 
-  /* â”€â”€ CONTACT â”€â”€ */
+  /* ── CONTACT ── */
   .contact-grid { display: grid; grid-template-columns: 1fr 1.4fr; gap: 48px; }
   @media (max-width: 860px) { .contact-grid { grid-template-columns: 1fr; } }
   .contact-info-card {
@@ -460,7 +460,7 @@
   input:focus, select:focus, textarea:focus { border-color: var(--navy); background: white; }
   textarea { resize: vertical; min-height: 120px; }
 
-  /* â”€â”€ CERTIFICATIONS â”€â”€ */
+  /* ── CERTIFICATIONS ── */
   .cert-card {
     background: white; border-radius: 16px; padding: 28px;
     border: 2px solid var(--gray-200); text-align: center;
@@ -480,10 +480,10 @@
     font-weight: 700; padding: 3px 10px; border-radius: 20px;
   }
 
-  /* â”€â”€ DIVIDER â”€â”€ */
+  /* ── DIVIDER ── */
   .divider { height: 1px; background: var(--gray-200); }
 
-  /* â”€â”€ NOTIFICATION â”€â”€ */
+  /* ── NOTIFICATION ── */
   .toast {
     position: fixed; bottom: 24px; right: 24px; z-index: 999;
     background: var(--navy); color: white; padding: 16px 24px;
@@ -495,4 +495,3 @@
   }
   .toast.show { transform: translateY(0); opacity: 1; }
 `;
-

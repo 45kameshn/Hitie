@@ -1,4 +1,4 @@
-﻿export const footerHtml = `<!-- ====== FOOTER ====== -->
+export const footerHtml = `<!-- ====== FOOTER ====== -->
 <footer>
   <div class="container">
     <div class="footer-grid">
@@ -66,7 +66,7 @@
   <div class="footer-bottom">
     <div class="container">
       <div class="footer-bottom-inner">
-        <p>Â© 2026 Hitie International Trade Private Limited. All rights reserved.</p>
+        <p>© 2026 Hitie International Trade Private Limited. All rights reserved.</p>
         <div class="footer-bottom-links">
           <a href="#">Privacy Policy</a>
           <a href="#">Terms of Service</a>
@@ -77,4 +77,3 @@
 </footer>
 
 `;
-
