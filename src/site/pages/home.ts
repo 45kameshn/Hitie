@@ -34,7 +34,7 @@ export const homePageHtml = `<!-- ====== HOME PAGE ====== -->
     <div class="container">
       <div class="stats-grid">
         <div class="stat-item animate-fade-up">
-          <div class="stat-number">1<span>+</span></div>
+          <div class="stat-number">4<span>+</span></div>
           <div class="stat-label">Year of Excellence</div>
         </div>
         <div class="stat-item animate-fade-up delay-1">
