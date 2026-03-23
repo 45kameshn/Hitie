@@ -84,4 +84,30 @@ export const scriptsHtml = `<script>
   const style = document.createElement('style');
   style.textContent = \`@media (max-width: 760px) { .about-grid { grid-template-columns: 1fr !important; } }\`;
   document.head.appendChild(style);
+
+  // Product card CTA (Products page)
+  document.querySelectorAll('#page-products .product-card').forEach(card => {
+    const body = card.querySelector('.product-body');
+    if (!body || body.querySelector('.product-quote-btn')) return;
+
+    const title = (body.querySelector('h3')?.textContent || 'Steel Product').trim();
+    const spec = (body.querySelector('.product-spec')?.textContent || '').trim();
+    const subject = encodeURIComponent('Request quote - ' + title);
+    const emailBody = [
+      'Hello Hitie Team,',
+      '',
+      'I would like a quote for ' + title + '.',
+      'Product specifications: ' + spec,
+      '',
+      'Please share pricing, lead time, and availability.',
+      '',
+      'Thank you.'
+    ].join('\\r\\n');
+
+    const cta = document.createElement('a');
+    cta.className = 'btn-primary product-quote-btn';
+    cta.href = 'mailto:contact@hitie.in?subject=' + subject + '&body=' + encodeURIComponent(emailBody);
+    cta.textContent = 'Request Quote';
+    body.appendChild(cta);
+  });
 </script>`;

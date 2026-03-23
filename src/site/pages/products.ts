@@ -1,4 +1,4 @@
-export const productsPageHtml = `<!-- ====== PRODUCTS PAGE ====== -->
+﻿export const productsPageHtml = `<!-- ====== PRODUCTS PAGE ====== -->
 <div class="page" id="page-products">
   <div class="page-hero">
     <div class="section-tag" style="background:rgba(245,158,11,0.2);color:var(--amber-light);">Product Range</div>
@@ -17,7 +17,7 @@ export const productsPageHtml = `<!-- ====== PRODUCTS PAGE ====== -->
       <div class="grid-3">
         <div class="product-card">
           <div class="product-img">
-            <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=400&q=70" alt="Seamless Steel Pipes" loading="lazy">
+            <img src="https://5.imimg.com/data5/SELLER/Default/2023/12/370109211/SB/YC/EX/37013338/spiral-welded-pipe-500x500.jpg" alt="Seamless Steel Pipes" loading="lazy">
           </div>
           <div class="product-body">
             <div class="product-cat">Seamless</div>
@@ -28,7 +28,7 @@ export const productsPageHtml = `<!-- ====== PRODUCTS PAGE ====== -->
         </div>
         <div class="product-card">
           <div class="product-img">
-            <img src="https://images.unsplash.com/photo-1567789884554-0b844b597180?w=400&q=70" alt="Alloy Steel Pipes" loading="lazy">
+            <img src="https://energy-steel.com/wp-content/uploads/2020/06/ASTM-A335-Alloy-Steel-Pipe-705x705.png" alt="Alloy Steel Pipes" loading="lazy">
           </div>
           <div class="product-body">
             <div class="product-cat">Alloy Steel</div>
@@ -39,7 +39,7 @@ export const productsPageHtml = `<!-- ====== PRODUCTS PAGE ====== -->
         </div>
         <div class="product-card">
           <div class="product-img">
-            <img src="https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=400&q=70" alt="Stainless Steel Pipes" loading="lazy">
+            <img src="https://www.nitronalloys.com/blog/wp-content/uploads/2022/02/stainless-steel-seamless-pipe-.jpg" alt="Stainless Steel Pipes" loading="lazy">
           </div>
           <div class="product-body">
             <div class="product-cat">Stainless Steel</div>
@@ -48,20 +48,10 @@ export const productsPageHtml = `<!-- ====== PRODUCTS PAGE ====== -->
             <div class="product-spec">ASTM A312 TP304/304L/316/316L/321 · ASME B36.19</div>
           </div>
         </div>
+        
         <div class="product-card">
           <div class="product-img">
-            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=70" alt="ERW Pipes" loading="lazy">
-          </div>
-          <div class="product-body">
-            <div class="product-cat">Welded</div>
-            <h3>ERW Steel Pipes</h3>
-            <p>Electric resistance welded pipes for structural and lower-pressure fluid transportation applications.</p>
-            <div class="product-spec">ASTM A53 Gr.A/B · IS 1239 · IS 3589</div>
-          </div>
-        </div>
-        <div class="product-card">
-          <div class="product-img">
-            <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=400&q=70" alt="LSAW Pipes" loading="lazy">
+            <img src="https://www.ss-steel.com/wp-content/uploads/2014/12/20121226072054.jpg" loading="lazy">
           </div>
           <div class="product-body">
             <div class="product-cat">Welded</div>
@@ -85,7 +75,7 @@ export const productsPageHtml = `<!-- ====== PRODUCTS PAGE ====== -->
       <div class="grid-3">
         <div class="product-card">
           <div class="product-img">
-            <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&q=70" alt="Pressure Vessel Plates" loading="lazy">
+            <img src="https://www.amns.in/heavy-plates/assets/images/top-reasons-why-you-should-use-heavy-steel-plates.jpg" loading="lazy">
           </div>
           <div class="product-body">
             <div class="product-cat">Carbon Steel</div>
@@ -96,48 +86,16 @@ export const productsPageHtml = `<!-- ====== PRODUCTS PAGE ====== -->
         </div>
         <div class="product-card">
           <div class="product-img">
-            <img src="https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=400&q=70" alt="SS Plates" loading="lazy">
-          </div>
-          <div class="product-body">
-            <div class="product-cat">Stainless Steel</div>
-            <h3>Stainless Steel Plates</h3>
-            <p>Austenitic and duplex stainless steel plates for corrosive environment applications.</p>
-            <div class="product-spec">ASTM A240 · 304/316/316L/321/347/Duplex 2205</div>
-          </div>
-        </div>
-        <div class="product-card">
-          <div class="product-img">
-            <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=400&q=70" alt="Structural Steel" loading="lazy">
+            <img src="https://www.bakersteeltrading.co.uk/wp-content/uploads/2021/02/structural-steel-product-range.jpg" alt="Structural Steel" loading="lazy">
           </div>
           <div class="product-body">
             <div class="product-cat">Structural</div>
-            <h3>Structural Steel Plates</h3>
-            <p>Hot rolled structural steel plates for civil construction, shipbuilding, and general fabrication.</p>
+            <h3>Structural Steel</h3>
+            <p>Hot rolled structural steel for civil construction, shipbuilding, and general fabrication.</p>
             <div class="product-spec">IS 2062 E250/E350 · ASTM A36 · EN S275/S355</div>
           </div>
         </div>
-        <div class="product-card">
-          <div class="product-img">
-            <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=400&q=70" alt="Structural Steel" loading="lazy">
-          </div>
-          <div class="product-body">
-            <div class="product-cat">SSSSStructural</div>
-            <h3>Structural Steel Plates</h3>
-            <p>Hot rolled structural steel plates for civil construction, shipbuilding, and general fabrication.</p>
-            <div class="product-spec">IS 2062 E250/E350 · ASTM A36 · EN S275/S355</div>
-          </div>
-        </div>
-        <div class="product-card">
-          <div class="product-img">
-            <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=400&q=70" alt="Structural Steel" loading="lazy">
-          </div>
-          <div class="product-body">
-            <div class="product-cat">SSxxxxSSStructural</div>
-            <h3>Structural Steel Plates</h3>
-            <p>Hot rolled structural steel plates for civil construction, shipbuilding, and general fabrication.</p>
-            <div class="product-spec">IS 2062 E250/E350 · ASTM A36 · EN S275/S355</div>
-          </div>
-        </div>
+
       </div>
     </div>
   </section>

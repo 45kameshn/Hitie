@@ -285,6 +285,86 @@ export const css = `
   .product-body h3 { font-size: 18px; font-weight: 700; color: var(--gray-900); margin-bottom: 8px; }
   .product-body p  { font-size: 13px; color: var(--gray-500); line-height: 1.6; margin-bottom: 12px; }
   .product-spec { font-size: 12px; color: var(--gray-400); font-weight: 500; }
+  /* —— PRODUCTS PAGE CARD VARIANT —— */
+  #page-products .product-card {
+    border: 4px solid #7483b4;
+    border-radius: 24px;
+    background: #f8fafc;
+    overflow: hidden;
+  }
+  #page-products .product-card:hover {
+    border-color: #5f70ad;
+    box-shadow: 0 20px 48px rgba(15,45,82,0.15);
+    transform: translateY(-4px);
+  }
+  #page-products .product-img { height: 290px; }
+  #page-products .product-body {
+    padding: 34px 32px 30px;
+    font-family: 'DM Sans', sans-serif;
+  }
+  #page-products .product-cat {
+    font-size: 16px;
+    font-weight: 600;
+    color: #cc7a20;
+    text-transform: none;
+    letter-spacing: 0;
+    margin-bottom: 22px;
+  }
+  #page-products .product-body h3 {
+    font-size: clamp(30px, 2.2vw, 38px);
+    line-height: 1.1;
+    font-weight: 800;
+    color: #0f274f;
+    margin-bottom: 22px;
+  }
+  #page-products .product-body p {
+    font-size: 15px;
+    line-height: 1.85;
+    color: #45556e;
+    margin-bottom: 22px;
+  }
+  #page-products .product-spec {
+    border-top: 2px solid #d8dee8;
+    margin-top: 10px;
+    padding-top: 20px;
+    font-size: 16px;
+    line-height: 1.65;
+    color: #1f448f;
+    font-weight: 700;
+    margin-bottom: 28px;
+  }
+  #page-products .product-spec::before {
+    content: 'Specifications:';
+    display: block;
+    color: #606f86;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+  #page-products .product-quote-btn {
+    width: 100%;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 14px;
+    background: #2f4194;
+    color: #fff;
+    padding: 16px 18px;
+    box-shadow: 0 8px 18px rgba(47,65,148,0.28);
+  }
+  #page-products .product-quote-btn:hover {
+    background: #24357f;
+    box-shadow: 0 10px 22px rgba(36,53,127,0.35);
+  }
+  @media (max-width: 768px) {
+    #page-products .product-img { height: 240px; }
+    #page-products .product-body { padding: 26px 22px 24px; }
+    #page-products .product-cat { font-size: 17px; margin-bottom: 16px; }
+    #page-products .product-body h3 { font-size: clamp(27px, 7.5vw, 36px); margin-bottom: 16px; }
+    #page-products .product-body p { font-size: 15px; margin-bottom: 16px; }
+    #page-products .product-spec { margin-bottom: 22px; font-size: 14px; }
+    #page-products .product-quote-btn { font-size: 16px; }
+  }
 
   /* â”€â”€ PROJECT CARDS â”€â”€ */
   .project-card {
@@ -495,3 +575,5 @@ export const css = `
   }
   .toast.show { transform: translateY(0); opacity: 1; }
 `;
+
+
