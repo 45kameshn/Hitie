@@ -110,8 +110,8 @@
       </div>
       <div class="grid-2">
         <div class="product-card">
-          <div class="product-img" style="height:160px;">
-            <img src="/images/steel_flanges.png" alt="Steel flanges" loading="lazy" style="width:100%;height:100%;object-fit:cover;">
+          <div class="product-img product-img-fittings">
+            <img src="/images/steel_flanges.png" alt="Steel flanges" loading="lazy">
           </div>
           <div class="product-body">
             <div class="product-cat">Flanges</div>
@@ -121,8 +121,8 @@
           </div>
         </div>
         <div class="product-card">
-          <div class="product-img" style="height:160px;">
-            <img src="/images/elbow45-90.png" alt="Steel fittings" loading="lazy" style="width:100%;height:100%;object-fit:cover;">
+          <div class="product-img product-img-fittings">
+            <img src="/images/elbow45-90.png" alt="Steel fittings" loading="auto" height="200 px" width="200 px" size="200%" >
           </div>
           <div class="product-body">
             <div class="product-cat">Fittings</div>

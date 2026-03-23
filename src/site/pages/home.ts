@@ -103,48 +103,48 @@ export const homePageHtml = `<!-- ====== HOME PAGE ====== -->
         <p class="section-subtitle">Premium steel products for critical industrial applications</p>
       </div>
       <div class="grid-4" style="margin-bottom:40px;">
-        <div class="product-card">
+        <div class="product-card" onclick="navigate('products')" style="cursor:pointer;">
           <div class="product-img">
-            <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=400&q=70" alt="Seamless Steel Pipes" loading="lazy">
+            <img src="https://5.imimg.com/data5/SELLER/Default/2023/12/370109211/SB/YC/EX/37013338/spiral-welded-pipe-500x500.jpg" alt="Carbon Steel Seamless Pipes" loading="lazy">
           </div>
           <div class="product-body">
-            <div class="product-cat">Pipes &amp; Tubes</div>
-            <h3>Seamless Steel Pipes</h3>
-            <p>High-quality seamless pipes for high-pressure applications in oil &amp; gas industries. Available in various grades.</p>
-            <div class="product-spec">ASTM A106 · API 5L · ASME B36.10</div>
+            <div class="product-cat">Seamless</div>
+            <h3>Carbon Steel Seamless Pipes</h3>
+            <p>High-quality seamless pipes for high-pressure and high-temperature applications in oil &amp; gas industries.</p>
+            <div class="product-spec">ASTM A106 Gr.B/C &middot; API 5L Gr.B/X42/X52/X60/X65 &middot; ASME B36.10</div>
           </div>
         </div>
-        <div class="product-card">
+        <div class="product-card" onclick="navigate('products')" style="cursor:pointer;">
           <div class="product-img">
-            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=70" alt="Welded Steel Pipes" loading="lazy">
+            <img src="https://energy-steel.com/wp-content/uploads/2020/06/ASTM-A335-Alloy-Steel-Pipe-705x705.png" alt="Alloy Steel Pipes" loading="lazy">
           </div>
           <div class="product-body">
-            <div class="product-cat">Pipes &amp; Tubes</div>
-            <h3>Welded Steel Pipes</h3>
-            <p>Premium welded pipes for structural and industrial applications. Manufactured to international standards.</p>
-            <div class="product-spec">ASTM A53 · API 5L Grade B · ERW/LSAW</div>
+            <div class="product-cat">Alloy Steel</div>
+            <h3>Alloy Steel Seamless Pipes</h3>
+            <p>Chromium-molybdenum alloy pipes designed for elevated-temperature service in power generation.</p>
+            <div class="product-spec">ASTM A335 P1/P5/P9/P11/P22/P91 &middot; ASME B36.10</div>
           </div>
         </div>
-        <div class="product-card">
+        <div class="product-card" onclick="navigate('products')" style="cursor:pointer;">
           <div class="product-img">
-            <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&q=70" alt="Steel Plates" loading="lazy">
+            <img src="https://www.nitronalloys.com/blog/wp-content/uploads/2022/02/stainless-steel-seamless-pipe-.jpg" alt="Stainless Steel Pipes" loading="lazy">
           </div>
           <div class="product-body">
-            <div class="product-cat">Plates &amp; Sheets</div>
-            <h3>Steel Plates</h3>
-            <p>Heavy-duty steel plates for power plant construction and petrochemical facilities. Superior strength.</p>
-            <div class="product-spec">ASTM A516 · SA 516 Grade 60/70</div>
+            <div class="product-cat">Stainless Steel</div>
+            <h3>Stainless Steel Seamless Pipes</h3>
+            <p>Corrosion-resistant stainless steel pipes for petrochemical and chemical processing plants.</p>
+            <div class="product-spec">ASTM A312 TP304/304L/316/316L/321 &middot; ASME B36.19</div>
           </div>
         </div>
-        <div class="product-card">
+        <div class="product-card" onclick="navigate('products')" style="cursor:pointer;">
           <div class="product-img">
-            <img src="https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=400&q=70" alt="Stainless Steel Sheets" loading="lazy">
+            <img src="https://www.ss-steel.com/wp-content/uploads/2014/12/20121226072054.jpg" alt="LSAW Steel Pipes" loading="lazy">
           </div>
           <div class="product-body">
-            <div class="product-cat">Plates &amp; Sheets</div>
-            <h3>Stainless Steel Sheets</h3>
-            <p>Corrosion-resistant stainless steel sheets for demanding petrochemical applications.</p>
-            <div class="product-spec">ASTM A240 · 304/316/321 Grade</div>
+            <div class="product-cat">Welded</div>
+            <h3>LSAW Steel Pipes</h3>
+            <p>Large diameter longitudinal submerged arc welded pipes for major pipeline projects.</p>
+            <div class="product-spec">API 5L PSL1/PSL2 &middot; ASTM A671/A672</div>
           </div>
         </div>
       </div>
@@ -156,7 +156,6 @@ export const homePageHtml = `<!-- ====== HOME PAGE ====== -->
       </div>
     </div>
   </section>
-
   <!-- RECENT PROJECTS -->
   <section class="bg-white">
     <div class="container">
@@ -220,3 +219,4 @@ export const homePageHtml = `<!-- ====== HOME PAGE ====== -->
 </div>
 
 `;
+
